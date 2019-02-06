@@ -7,5 +7,6 @@ choice with five questions and 3-4 answers that will all be a part of the same b
 Answering correctly may further explain why the answer was correct, this is to be decided. Similarly answering
 incorrectly will provide an explanation as to why the answer was incorrect. 
 
-We will be using Android Studio and developing for SPECIFIC OLD ANDROID VERSION THAT I NEED TO CHECK in order 
-to maximize compatibility as the app is fairly simple, and doesn't require advanced features. 
+We will be using Android Studio and developing for Android 5.1 Lollipop in order to maximize compatibility as 
+the app is fairly simple, and doesn't require advanced features, and we doubt that the vast majority of our target
+demographic (College or University students) would have a device running anything older than that. 
