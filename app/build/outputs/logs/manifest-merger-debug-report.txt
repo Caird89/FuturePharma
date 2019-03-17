@@ -1,0 +1,190 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\983ffd08e784c00ba43d098a3d13f168\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb5f4e9b160186bbfe1d639b90280a0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a5533a973880e6d2855b2a677a1ac58\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\19754442885329b5bf901fb3cd064e15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\05e79ba45c72d4139e87b7116fcca059\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53ff42ddfaadeaef36eb3114e0ed9926\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a110b61366f5da4cb9a7518257456390\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b44263ec9fe21cae6a6a2a028f37df7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\25ee21d1667d242f3beed58be720b8df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\38e5ea146a6c6cf31345d3e2efce4e84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bf9858718b3039d4e0952f0131e76105\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\66e386a56adeb8ee8b9114b6a0789c63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d23a9eeac44fcff17cc6757de6ae74e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\598c064efc27ba74ab4cc04bceea02c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2f767088596cd847129ab3d208045497\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0d1a23df991eaa03389bc0d8d071bead\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ce15a23d83ce00ed3491e59caf191767\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\fef4045e34cb4866fdefc65ac25b3f6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\107574163085db08ae8f57940b849b6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f037221df9572ba984375274028253\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\467dc6b56622ef42e3055452b1995b44\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\220d51dacdab99e41c0c470ea4c26ce4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d3514d5f2fc304ab5b9f3e2a5a0ea4d3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4b83b3aaeabb8ffdf9c6c9bff02f8854\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d1f5be3f3613b37f5bc5c9d6e8f4c9c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c3cb08d15db0f554ec2e93594c639821\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\826906d25d1f74561bcd804f24100de3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\598aecdf634a4a4c77f66e21ae157188\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec88b16d84049821b4d9724292b000c9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\17abb02b7b15af12b43b5a4088ee2f90\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ce3f5f388ea9116ee3e006a3b59fc01e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\404659cc86d97fd361fc0bc82a96d714\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:1-29:12
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\983ffd08e784c00ba43d098a3d13f168\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\983ffd08e784c00ba43d098a3d13f168\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a5533a973880e6d2855b2a677a1ac58\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a5533a973880e6d2855b2a677a1ac58\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\467dc6b56622ef42e3055452b1995b44\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\467dc6b56622ef42e3055452b1995b44\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:11:9-40
+activity#wellcairdfor.futurepharma.FiveQuestions
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:12:9-15:68
+	android:label
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:14:13-66
+	android:theme
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:13:13-42
+activity#wellcairdfor.futurepharma.FiveQuestionsActivity
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:16:9-19:59
+	android:label
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:18:13-66
+	android:theme
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:17:13-50
+activity#wellcairdfor.futurepharma.MainActivity
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:20:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\983ffd08e784c00ba43d098a3d13f168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\983ffd08e784c00ba43d098a3d13f168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb5f4e9b160186bbfe1d639b90280a0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb5f4e9b160186bbfe1d639b90280a0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a5533a973880e6d2855b2a677a1ac58\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\8a5533a973880e6d2855b2a677a1ac58\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\19754442885329b5bf901fb3cd064e15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\19754442885329b5bf901fb3cd064e15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\05e79ba45c72d4139e87b7116fcca059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\05e79ba45c72d4139e87b7116fcca059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53ff42ddfaadeaef36eb3114e0ed9926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53ff42ddfaadeaef36eb3114e0ed9926\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a110b61366f5da4cb9a7518257456390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a110b61366f5da4cb9a7518257456390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b44263ec9fe21cae6a6a2a028f37df7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b44263ec9fe21cae6a6a2a028f37df7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\25ee21d1667d242f3beed58be720b8df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\25ee21d1667d242f3beed58be720b8df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\38e5ea146a6c6cf31345d3e2efce4e84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\38e5ea146a6c6cf31345d3e2efce4e84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bf9858718b3039d4e0952f0131e76105\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\bf9858718b3039d4e0952f0131e76105\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\66e386a56adeb8ee8b9114b6a0789c63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\66e386a56adeb8ee8b9114b6a0789c63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d23a9eeac44fcff17cc6757de6ae74e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d23a9eeac44fcff17cc6757de6ae74e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\598c064efc27ba74ab4cc04bceea02c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\598c064efc27ba74ab4cc04bceea02c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2f767088596cd847129ab3d208045497\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\2f767088596cd847129ab3d208045497\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0d1a23df991eaa03389bc0d8d071bead\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0d1a23df991eaa03389bc0d8d071bead\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ce15a23d83ce00ed3491e59caf191767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\ce15a23d83ce00ed3491e59caf191767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\fef4045e34cb4866fdefc65ac25b3f6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\fef4045e34cb4866fdefc65ac25b3f6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\107574163085db08ae8f57940b849b6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\107574163085db08ae8f57940b849b6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f037221df9572ba984375274028253\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\18f037221df9572ba984375274028253\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\00dfc9f03109443070d380cde3020628\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\467dc6b56622ef42e3055452b1995b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\467dc6b56622ef42e3055452b1995b44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\220d51dacdab99e41c0c470ea4c26ce4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\220d51dacdab99e41c0c470ea4c26ce4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d3514d5f2fc304ab5b9f3e2a5a0ea4d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d3514d5f2fc304ab5b9f3e2a5a0ea4d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4b83b3aaeabb8ffdf9c6c9bff02f8854\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4b83b3aaeabb8ffdf9c6c9bff02f8854\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d1f5be3f3613b37f5bc5c9d6e8f4c9c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d1f5be3f3613b37f5bc5c9d6e8f4c9c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c3cb08d15db0f554ec2e93594c639821\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\c3cb08d15db0f554ec2e93594c639821\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\826906d25d1f74561bcd804f24100de3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\826906d25d1f74561bcd804f24100de3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\598aecdf634a4a4c77f66e21ae157188\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\598aecdf634a4a4c77f66e21ae157188\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec88b16d84049821b4d9724292b000c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec88b16d84049821b4d9724292b000c9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\17abb02b7b15af12b43b5a4088ee2f90\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\17abb02b7b15af12b43b5a4088ee2f90\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ce3f5f388ea9116ee3e006a3b59fc01e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ce3f5f388ea9116ee3e006a3b59fc01e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\404659cc86d97fd361fc0bc82a96d714\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Otto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\404659cc86d97fd361fc0bc82a96d714\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\src\main\AndroidManifest.xml

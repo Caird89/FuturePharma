@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FuturePharma</string>
+    <string name="title_activity_five_questions">TODONAMEITLLATER</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_4">Tab 4</string>
+    <string name="tab_5">Tab 5</string>
+    <string name="textview">Hello World from section: %1$d</string>
+
+    <string name="que1">
+Bob is a regular patient of a community pharmacy who is not covered by any insurance comes with a prescription for clarithromycin 500mg BID for 7 days. Jane, the pharmacy technician, in the pharmacy is aware that Bob does not have any insurance coverage and also his work hours are recently cut down by several hours. Jane can either fill this prescriptions 14ofthe500mgtablets or 28ofthe250mgtablets. Bob has to pay $45 for 14of 500mgtablets, whereas only $25 for 28of the 250mgtablets. Jane looks in the inventory for 250mg tablets and finds that there are none. So, she decides to dispense 500 mg tablets without informing the patient of the situation and charges him with $45 leading to the patient paying $20 more for this prescription without complete knowledge.
+    </string>
+    <string name="que2">Hello!22222</string>
+    <string name="que3">Hello!33</string>
+    <string name="que4">Hello!44</string>
+    <string name="que5">Hello!55</string>
+
 </resources>
