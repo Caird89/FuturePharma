@@ -5,27 +5,26 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="STATIC_INITIALIZER_CHANGE"
     plugin-version="3.3.0"
-    timestamp="1552811580749"
+    timestamp="1552861682245"
     token="7267047806013660486"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="112" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
 
     <build
@@ -85,10 +84,22 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1552801757640"
+        timestamp="1552860464899"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1552861168007"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -97,40 +108,33 @@
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1552802257676"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1552811580749"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1552861564750"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1552861682245"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 

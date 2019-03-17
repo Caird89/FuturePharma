@@ -17,6 +17,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -26,9 +29,14 @@ public class FiveQuestions extends AppCompatActivity {
 
 
     //creates array to contain question texts and gives it a temporary blank to prevent crashes.
-   static ArrayList<String> questions_list = new ArrayList<String>(Arrays.asList("tempo"));
-
-
+    //Does the same for answer texts.
+    static ArrayList<String> questions_list = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A1answers = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A2answers = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A3answers = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A4answers = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A5answers = new ArrayList<String>(Arrays.asList("tempo"));
+    static ArrayList<String> A6answers = new ArrayList<String>(Arrays.asList("tempo"));
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -40,6 +48,7 @@ public class FiveQuestions extends AppCompatActivity {
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
+
     /**
      * The {@link ViewPager} that will host the section contents.
      */
@@ -48,7 +57,8 @@ public class FiveQuestions extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        //adds the questions to the array, removes initial dummy entry.
+        //adds the questions and answers  to the respective arraylists, removes initial dummy entry.
+        //Note: Could all possibly be looped into a neater few lines of code, but eh, maybe later. It it aint broken dont fix it.
         questions_list.remove(0);
         questions_list.add(getString(R.string.que1));
         questions_list.add(getString(R.string.que2));
@@ -56,11 +66,55 @@ public class FiveQuestions extends AppCompatActivity {
         questions_list.add(getString(R.string.que4));
         questions_list.add(getString(R.string.que5));
 
+        A1answers.remove(0);
+        A2answers.remove(0);
+        A3answers.remove(0);
+        A4answers.remove(0);
+        A5answers.remove(0);
+        A6answers.remove(0);
+
+        A1answers.add(getString(R.string.q1a1));
+        A1answers.add(getString(R.string.q2a1));
+        A1answers.add(getString(R.string.q3a1));
+        A1answers.add(getString(R.string.q4a1));
+        A1answers.add(getString(R.string.q5a1));
+
+        A2answers.add(getString(R.string.q1a2));
+        A2answers.add(getString(R.string.q2a2));
+        A2answers.add(getString(R.string.q3a2));
+        A2answers.add(getString(R.string.q4a2));
+        A2answers.add(getString(R.string.q5a2));
+
+        A3answers.add(getString(R.string.q1a3));
+        A3answers.add(getString(R.string.q2a3));
+        A3answers.add(getString(R.string.q3a3));
+        A3answers.add(getString(R.string.q4a3));
+        A3answers.add(getString(R.string.q5a3));
+
+        A4answers.add(getString(R.string.q1a4));
+        A4answers.add(getString(R.string.q2a4));
+        A4answers.add(getString(R.string.q3a4));
+        A4answers.add(getString(R.string.q4a4));
+        A4answers.add(getString(R.string.q5a4));
+
+        A5answers.add(getString(R.string.q1a5));
+        A5answers.add(getString(R.string.q2a5));
+        A5answers.add(getString(R.string.q3a5));
+        A5answers.add(getString(R.string.q4a5));
+        A5answers.add(getString(R.string.q5a5));
+
+        A6answers.add(getString(R.string.q1a6));
+        A6answers.add(getString(R.string.q2a6));
+        A6answers.add(getString(R.string.q3a6));
+        A6answers.add(getString(R.string.q4a6));
+        A6answers.add(getString(R.string.q5a6));
+        //End of arraylist population.
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_five_questions);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+      //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+      //  setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -73,15 +127,6 @@ public class FiveQuestions extends AppCompatActivity {
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
     }
 
@@ -137,13 +182,42 @@ public class FiveQuestions extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_five_questions, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
 
-            textView.setText(questions_list.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            //loads needed fragment/question specific stuff
+            TextView questDisplay = rootView.findViewById(R.id.questionText);
+            RadioGroup  answers = rootView.findViewById(R.id.Ans_group);
+            RadioButton A1 = rootView.findViewById(R.id.A1);
+            RadioButton A2 = rootView.findViewById(R.id.A2);
+            RadioButton A3 = rootView.findViewById(R.id.A3);
+            RadioButton A4 = rootView.findViewById(R.id.A4);
+            RadioButton A5 = rootView.findViewById(R.id.A5);
+            RadioButton A6 = rootView.findViewById(R.id.A6);
+            Button submit_ans = rootView.findViewById(R.id.Q_Submit);
+
+            //Sets the correct text displays for both the question and answer strings.
+            questDisplay.setText(questions_list.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A1.setText(A1answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A2.setText(A2answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A3.setText(A3answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A4.setText(A4answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A5.setText(A5answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+            A6.setText(A6answers.get(getArguments().getInt(ARG_SECTION_NUMBER)-1));
+
+            //Hides buttons that are unused, different questions have different numbers of answers.
+            if(A5.getText().equals("x"))
+            {
+              A5.setVisibility(View.INVISIBLE);
+            }
+            if(A6.getText().equals("x"))
+            {
+                A6.setVisibility(View.INVISIBLE);
+            }
 
             return rootView;
         }
+
+
+
     }
 
     /**
