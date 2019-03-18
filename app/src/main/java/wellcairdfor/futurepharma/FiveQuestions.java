@@ -305,15 +305,13 @@ public class FiveQuestions extends AppCompatActivity {
 
         public void submit_btn_clicked(View view, Integer gg)
         {
-            Log.d("W", "clickied: "+gg +"  correct answer: "+correct_answer ) ;
+            Log.d("W", "clickied: "+gg +"  correct answer in order: "+correct_answer ) ;
 
 
             ////////////////////////////////////////////////////////////////////////////////////////////////////////
             if(gg.equals(correct_answer.get(getArguments().getInt(ARG_SECTION_NUMBER)-1)))
             {
-
                 final_ans.set(getArguments().getInt(ARG_SECTION_NUMBER)-1,true);
-
 
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Correct!")
@@ -338,8 +336,7 @@ public class FiveQuestions extends AppCompatActivity {
             else  //Correct response above, incorrect below.
             { //////////////////////////////////////////////////////////////////////////////
                 final_ans.set(getArguments().getInt(ARG_SECTION_NUMBER)-1,false);
-
-
+                
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Incorrect!")
                         .setMessage(explas.get(getArguments().getInt(ARG_SECTION_NUMBER)-1))
