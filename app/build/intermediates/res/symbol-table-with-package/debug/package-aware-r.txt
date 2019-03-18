@@ -1394,6 +1394,16 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string corr_answer1
+string corr_answer2
+string corr_answer3
+string corr_answer4
+string corr_answer5
+string expla1
+string expla2
+string expla3
+string expla4
+string expla5
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior

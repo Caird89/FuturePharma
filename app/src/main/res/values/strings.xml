@@ -83,5 +83,16 @@ Jane looks in the inventory for 250mg tablets and finds that there are none. So,
     <string name="q4a6">question 4 answer 6</string>
     <string name="q5a6">question 5 answer 6</string>
 
+    <string name="corr_answer1">4</string>
+    <string name="corr_answer2">5</string>
+    <string name="corr_answer3">2</string>
+    <string name="corr_answer4">1</string>
+    <string name="corr_answer5">3</string>
+
+    <string name="expla1">expla1</string>
+    <string name="expla2">expla2</string>
+    <string name="expla3">expla3</string>
+    <string name="expla4">expla4</string>
+    <string name="expla5">expla5</string>
 
 </resources>
