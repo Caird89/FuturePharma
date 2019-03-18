@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\66e386a56adeb8ee8b9114b6a0789c63\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\66e386a56adeb8ee8b9114b6a0789c63\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\src\\main\\res\\layout\\activity_five_questions.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\tooltip_frame_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -132,24 +132,24 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\animator\\mtrl_fab_show_motion_spec.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\animator\\mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\animator\\mtrl_fab_show_motion_spec.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\animator\\design_fab_hide_motion_spec.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
@@ -284,12 +284,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -308,12 +308,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -340,12 +340,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\00dfc9f03109443070d380cde3020628\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\00dfc9f03109443070d380cde3020628\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -392,12 +392,12 @@
         "source": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -408,12 +408,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-v21\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -428,24 +428,24 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\983ffd08e784c00ba43d098a3d13f168\\res\\color\\mtrl_chip_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_black.xml.flat",
@@ -492,12 +492,12 @@
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Otto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb5f4e9b160186bbfe1d639b90280a0e\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Otto\\AndroidStudioProjects\\FuturePharma\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",

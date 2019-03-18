@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="METHOD_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.0"
-    timestamp="1552883175530"
+    timestamp="1552883997821"
     token="7267047806013660486"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="59" />
+        duration="67" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="2" />
     <task
         name="verifier"
-        duration="2" />
+        duration="1" />
 
     <artifact
         location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -123,7 +123,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1552882299927"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1552883915920"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -131,8 +132,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_ADDED"
-        timestamp="1552883175530"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1552883997821"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

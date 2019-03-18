@@ -609,7 +609,7 @@
     </string>
     <string name="expla4">According to DIDFA act, if the prescription specifies to dispense a specific product to which an interchangeable is available, we have to inform the patient of the
         situation so that the patient can take a decision of his own.</string>
-    <string name="expla5">Usually,colleges provide insurance for their students. Cindy might have insurance from her college which is considered as primary insurance for Cindy before her mother’s insurance accept any
+    <string name="expla5">Usually ,colleges provide insurance for their students. Cindy might have insurance from her college which is considered as primary insurance for Cindy before her mother’s insurance accept any
         remaining cost on the prescription.</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">android.support.design.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">android.support.design.transformation.FabTransformationSheetBehavior</string>

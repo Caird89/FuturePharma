@@ -279,9 +279,9 @@ public class FiveQuestions extends AppCompatActivity {
         public void onClick(View view) {
             if(selection_id == 2131230720)
             {
-                submit_btn_clicked(view,1);;
+                submit_btn_clicked(view,1);
             }
-            else     if(selection_id == 2131230721)
+            else if(selection_id == 2131230721)
             {
                 submit_btn_clicked(view,2);
             }
@@ -323,7 +323,7 @@ public class FiveQuestions extends AppCompatActivity {
                                 {
                                     if(5 == getArguments().getInt(ARG_SECTION_NUMBER))
                                     {
-                                        Log.d("W", "Made it! Quiz complete." ) ;
+                                        onto_the_next_one();
                                     }
                                     else
                                     {
@@ -336,7 +336,7 @@ public class FiveQuestions extends AppCompatActivity {
             else  //Correct response above, incorrect below.
             { //////////////////////////////////////////////////////////////////////////////
                 final_ans.set(getArguments().getInt(ARG_SECTION_NUMBER)-1,false);
-                
+
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Incorrect!")
                         .setMessage(explas.get(getArguments().getInt(ARG_SECTION_NUMBER)-1))
@@ -361,7 +361,7 @@ public class FiveQuestions extends AppCompatActivity {
 
         public void onto_the_next_one()
         {
-            Log.d("W", "Made it! Quiz complete. Onto the next one." ) ; //Ensures this is reached. It is! TODO, connect it to the  next activity.
+            Log.d("W", "Made it! Quiz complete. Onto the next one." +"  "+final_ans ) ; //Ensures this is reached. It is! TODO, connect it to the  next activity.
 
            // Intent intent = new Intent(this, FiveQuestions.class);
            // startActivity(intent);
