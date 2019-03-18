@@ -1,13 +1,11 @@
 package wellcairdfor.futurepharma;
 
-import android.app.TabActivity;
+
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -20,35 +18,32 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FiveQuestions extends AppCompatActivity {
 
-  //  loads needed fragment/question specific stuff
+  //  sets up the things that it sets up
     private   static   TextView questDisplay ;
     private   static   RadioGroup  answers ;
     private   static   RadioButton A1;
-    private   static  RadioButton A2 ;
+    private   static   RadioButton A2 ;
     private   static   RadioButton A3;
     private   static   RadioButton A4;
     private   static   RadioButton A5;
     private   static   RadioButton A6;
     private   static   Button submit_ans;
+
     private static TabLayout tabLayout;
     private static int selection_id;
 
-    //creates array to contain question texts and gives it a temporary blank to prevent crashes.
-    //Does the same for answer texts. Also initializes arraylist to keep track of the final answers to send to next activity.
+    //creates array to contain texts and gives them all temporary placeholders to prevent crashes.
+    //Also initializes arraylist to keep track of the final answers to send to next activity.
     private static ArrayList<String> questions_list = new ArrayList<String>(Arrays.asList("tempo"));
     private static ArrayList<String> A1answers = new ArrayList<String>(Arrays.asList("tempo"));
     private static ArrayList<String> A2answers = new ArrayList<String>(Arrays.asList("tempo"));
@@ -63,6 +58,7 @@ public class FiveQuestions extends AppCompatActivity {
 
 
 
+
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -73,11 +69,12 @@ public class FiveQuestions extends AppCompatActivity {
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
-
     /**
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -218,7 +215,7 @@ public class FiveQuestions extends AppCompatActivity {
             return fragment;
         }
 
-        @Override
+        @Override ////////////////////////////////////////////////////////////////////////////////////////////////////
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_five_questions, container, false);
@@ -276,13 +273,10 @@ public class FiveQuestions extends AppCompatActivity {
             });
 
             return rootView;
-        }
+        } //end of onCreateView ////////////////////////////////////////////////////////////////////////////////////
 
         @Override
         public void onClick(View view) {
-
-            Log.d("W", "Made it! Corr answer:  "+correct_answer.get(getArguments().getInt(ARG_SECTION_NUMBER)-1)  ) ;
-
             if(selection_id == 2131230720)
             {
                 submit_btn_clicked(view,1);;
@@ -307,73 +301,77 @@ public class FiveQuestions extends AppCompatActivity {
             {
                 submit_btn_clicked(view,6);
             }
-
-
-
-
-        }
+        } //end of on click
 
         public void submit_btn_clicked(View view, Integer gg)
         {
             Log.d("W", "clickied: "+gg +"  correct answer: "+correct_answer ) ;
 
+
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////
             if(gg.equals(correct_answer.get(getArguments().getInt(ARG_SECTION_NUMBER)-1)))
             {
 
                 final_ans.set(getArguments().getInt(ARG_SECTION_NUMBER)-1,true);
 
+
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Correct!")
                         .setMessage(explas.get(getArguments().getInt(ARG_SECTION_NUMBER)-1))
-                        .setPositiveButton("Next", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which)
-                            {
-                                if(5 == getArguments().getInt(ARG_SECTION_NUMBER))
+                        .setPositiveButton("Next", new DialogInterface.OnClickListener()
+                        {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which)
                                 {
-
+                                    if(5 == getArguments().getInt(ARG_SECTION_NUMBER))
+                                    {
+                                        Log.d("W", "Made it! Quiz complete." ) ;
+                                    }
+                                    else
+                                    {
+                                        tabLayout.getTabAt(tabLayout.getSelectedTabPosition()+1).select();
+                                    }
                                 }
-                                else
-                                {
-                                    tabLayout.getTabAt(tabLayout.getSelectedTabPosition()+1).select();
-                                }
-
-                            }
                         })
                         .show();
-            }
+            } //////////////////////////////////////////////////////////////////////////////
             else  //Correct response above, incorrect below.
-            {
+            { //////////////////////////////////////////////////////////////////////////////
                 final_ans.set(getArguments().getInt(ARG_SECTION_NUMBER)-1,false);
+
 
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Incorrect!")
                         .setMessage(explas.get(getArguments().getInt(ARG_SECTION_NUMBER)-1))
-                        .setPositiveButton("Next", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("Next", new DialogInterface.OnClickListener()
+                        {
                             @Override
                             public void onClick(DialogInterface dialog, int which)
                             {
                                 if(5 == getArguments().getInt(ARG_SECTION_NUMBER))
                                 {
-
+                                    onto_the_next_one();
                                 }
                                 else
                                 {
                                     tabLayout.getTabAt(tabLayout.getSelectedTabPosition()+1).select();
                                 }
-
-
                             }
                         })
                         .show();
+            } //////////////////////////////////////////////////////////////////////////////
+        }//end of btn clicked
 
-            }
+        public void onto_the_next_one()
+        {
+            Log.d("W", "Made it! Quiz complete. Onto the next one." ) ; //Ensures this is reached. It is! TODO, connect it to the  next activity.
 
+           // Intent intent = new Intent(this, FiveQuestions.class);
+           // startActivity(intent);
         }
+    }//end of onto the next one
 
 
-
-    }
 
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to

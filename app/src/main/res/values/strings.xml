@@ -29,15 +29,28 @@
 
         As the technician how would you process the prescription?
     </string>
-    <string name="que4">Hello!44</string>
-    <string name="que5">Hello!55</string>
-    <string name="Answer6">Answer 66</string>
-    <string name="Answer5">Answer 55</string>
-    <string name="Answer4">Answer 44444</string>
-    <string name="Answer3">Answer3</string>
-    <string name="Answer1">Anwer 1111</string>
-    <string name="Answer2">Ansswer22222</string>
-    <string name="questions_pg_submit_btn_text">Submit</string>
+    <string name="que4">
+         Joe, a 67-year-old regular patient at your pharmacy, brings a prescription for Crestor 20mg qam NO SUB. The technician is aware that unless the physician submits an Adverse Drug Reaction  \(ADR\)  form, ODB will not pay
+        for the brand name as a generic is available for this medication.
+        \n\nWhat is the best course of action?
+    </string>
+    <string name="que5">
+        Cindy, a 21-year-old female, who joined Georgian College a month ago, was in the pharmacy today to refill her birth control medication, Alesse 21. When she got it filled 3 months ago with OHIP+ and her
+        mother\’s insurance as a CHILD UNDERAGE, the medication was fully covered. When she is trying to fill the medication today, her mother’s insurance plan is showing that Cindy has another primary insurance other
+        than OHIP+ that should be processed first.
+        \n\nWhat might be the issue here?
+
+    </string>
+
+    <!-- Don't delete. Actively in use by the FiveQuestions page even if placeholder here, gets overwritten as needed. -->
+    <string name="Answer6">Answer 6</string>
+    <string name="Answer5">Answer 5</string>
+    <string name="Answer4">Answer 4</string>
+    <string name="Answer3">Answer 3</string>
+    <string name="Answer1">Answer 1</string>
+    <string name="Answer2">Answer 2</string>
+
+    <string name="questions_pg_submit_btn_text">Submit Answer</string>
 
 
     <!-- Question answers strings naming conventions as follows: Q1A1 means Question 1, Answer 1.  Q4A2 means Question 4 Answer 2. etc. -->
@@ -47,8 +60,9 @@
     </string>
     <string name="q2a1">a. Scream back at her saying she is wrong and that she is a pain to the staff at the pharmacy always.</string>
     <string name="q3a1">a. Explain to Kathy that she cannot use her father\'s insurance plan for this prescription if she does not want him knowing about it and would have to pay the remainder in cash after government coverage.</string>
-    <string name="q4a1">question 4 answer 1</string>
-    <string name="q5a1">question 5 answer 1</string>
+    <string name="q4a1">a. Inform Joe that ODB only covers the cost of a generic interchangeable. Without a completed Adverse Drug Reaction(ADR)form from his physician, Joe is responsible for covering the cost difference
+        between the generic and brand name.</string>
+    <string name="q5a1">a.  As Cindy is above 21, she is not considered as a child under age.</string>
 
     <string name="q1a2">
         b. Jane violated the ethical principle of respect for persons/justice as she did not present Bob options and allow him to choose between paying for the higher priced 500mg tablets, wait for the
@@ -56,37 +70,37 @@
     </string>
     <string name="q2a2">b. Ask her to get private third-party insurance coverage as the government will not cover for prescriptions once a person gets discharged from a nursing home.</string>
     <string name="q3a2">b. Assure Kathy that her father will not see what medication she had filled as it considered personal health information and is protected under PHIPA.</string>
-    <string name="q4a2">question 4 answer 2</string>
-    <string name="q5a2">question 5 answer 2</string>
+    <string name="q4a2">b. Dispense the brand drug as the physician mentioned NO SUB in the prescription and charge the patient.</string>
+    <string name="q5a2">b. Alesse 21 is not a benefit under her mother\’s plan.</string>
 
     <string name="q1a3">
         c. Jane violated the ethical principle of beneficence as she worked for the best interests of the pharmacy\’s business and not the patient\'s.
     </string>
     <string name="q2a3">c. Explain to her that her health card version changes after discharge from a nursing home and confirm with the nursing home that they have updated ODB on her discharge.</string>
     <string name="q3a3">c. As Kathy is only 15 and is covered as a child underage, her parents have the right to know about the medications as she is covered under her father’s insurance. To ensure Kathy’s well-being, inform her parents about her illness.</string>
-    <string name="q4a3">question 4 answer 3</string>
-    <string name="q5a3">question 5 answer 3</string>
+    <string name="q4a3">c. Dispense the generic drug without consulting the physician or patient as the insurance is not covering the brand drug.</string>
+    <string name="q5a3">c. Cindy might have insurance plan provided by her college.</string>
 
     <string name="q1a4">d. Both b and c.</string>
     <string name="q2a4">d. Alert the pharmacist about the situation and ask if they would like to supply the patient with enough medications to last till Monday at no cost, in case if they are on the medications
         that cannot be missed until we can get in contact with ODB. </string>
     <string name="q3a4">d. Both a and b.</string>
-    <string name="q4a4">question 4 answer 4</string>
-    <string name="q5a4">question 5 answer 4</string>
+    <string name="q4a4">x</string>
+    <string name="q5a4">d. All of the above.</string>
 
     <string name="q1a5">
        e. All of the above.
     </string>
     <string name="q2a5">e. Both b and c.</string>
     <string name="q3a5">d. Both b and c.</string>
-    <string name="q4a5">question 4 answer 5</string>
-    <string name="q5a5">question 5 answer 5</string>
+    <string name="q4a5">x</string>
+    <string name="q5a5">x</string>
 
     <string name="q1a6">x</string>
     <string name="q2a6">f. Both c and d.</string>
     <string name="q3a6">x</string>
-    <string name="q4a6">question 4 answer 6</string>
-    <string name="q5a6">question 5 answer 6</string>
+    <string name="q4a6">x</string>
+    <string name="q5a6">x</string>
 
     <!--Correct answers go  in alphabetical/numerical order: a=1, b=2, c=3, etc. -->
     <string name="corr_answer1">4</string>
@@ -113,7 +127,9 @@
     <string name="expla3">
         According to PHIPA, as long as she is in the right state of mind and knows what she is doing, her consent is valid and we have to respect her autonomy and not inform her parents.
     </string>
-    <string name="expla4">expla4</string>
-    <string name="expla5">expla5</string>
+    <string name="expla4">According to DIDFA act, if the prescription specifies to dispense a specific product to which an interchangeable is available, we have to inform the patient of the
+        situation so that the patient can take a decision of his own.</string>
+    <string name="expla5">Usually ,colleges provide insurance for their students. Cindy might have insurance from her college which is considered as primary insurance for Cindy before her mother’s insurance accept any
+        remaining cost on the prescription.</string>
 
 </resources>
