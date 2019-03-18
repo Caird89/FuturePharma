@@ -11,19 +11,24 @@
     <string name="question_display">Section %1$d Placeholder.</string>
 
     <string name="que1">
-
-      Bob is a regular patient of a community pharmacy who is not covered by any insurance comes with a prescription for clarithromycin 500mg BID for 7 days.
-\n\n
-Jane, the pharmacy technician, in the pharmacy is aware that Bob does not have any insurance coverage and also his work hours are recently cut down by several hours.
-\n\n
-Jane can either fill this prescriptions 14 of the 500mg tablets or 28 of the 250mg tablets. Bob has to pay $45 for 14 of 500mg tablets, whereas only $25 for 28 of the 250mg tablets.
-\n\n
-Jane looks in the inventory for 250mg tablets and finds that there are none. So, she decides to dispense 500 mg tablets without informing the patient of the situation and charges him with $45 leading to the patient paying $20 more for this prescription without complete knowledge.
-\n\n
-      <b>Which of the following statements is TRUE?</b>
+        Bob is a regular patient of a community pharmacy who is not covered by any insurance comes with a prescription for clarithromycin 500mg BID for 7 days.
+\n\nJane, the pharmacy technician, in the pharmacy is aware that Bob does not have any insurance coverage and also his work hours are recently cut down by several hours.
+\n\nJane can either fill this prescriptions 14 of the 500mg tablets or 28 of the 250mg tablets. Bob has to pay $45 for 14 of 500mg tablets, whereas only $25 for 28 of the 250mg tablets.
+\n\nJane looks in the inventory for 250mg tablets and finds that there are none. So, she decides to dispense 500 mg tablets without informing the patient of the situation and charges him with $45 leading to the patient paying $20 more for this prescription without complete knowledge.
+\n\nWhich of the following statements is TRUE?
    </string>
-    <string name="que2">Hello!22222</string>
-    <string name="que3">Hello!33</string>
+    <string name="que2">
+        Bill is a pharmacy technician who is working on a Saturday morning. Wendy, a 70-year old woman, was recently discharged from a local nursing home after a 2-year stay. Prior to her admission to the nursing home,
+        Wendy was a regular patient at the pharmacy where Bill works and her prescriptions were covered by OntarioDrug Benefit.
+        \n\nNow, when Bill is processing Wendy\'s prescriptions, the claims are being rejected byODB.
+        Wendy becomes agitated and quite angry at her medications not being covered and accuses Bill and the pharmacy of \"trying to steal her money\". \n\nHow should Bill handle this situation?
+    </string>
+    <string name="que3">
+        Kathy,a 15-year-old school girl, is covered under her father’s private third-party insurance plan. She brings a prescription for Macrobid 500mg bidX 3/7. She mentions that she does not want her parents to know
+        about it and heard about OHIP+ for people below 24 years and under.\n\n
+
+        As the technician how would you process the prescription?
+    </string>
     <string name="que4">Hello!44</string>
     <string name="que5">Hello!55</string>
     <string name="Answer6">Answer 66</string>
@@ -38,60 +43,76 @@ Jane looks in the inventory for 250mg tablets and finds that there are none. So,
     <!-- Question answers strings naming conventions as follows: Q1A1 means Question 1, Answer 1.  Q4A2 means Question 4 Answer 2. etc. -->
     <!-- In order to hide an empty answer field simply put in an "x" and literally nothing else into the string field. -->
     <string name="q1a1">
-        Jane took the best course of action by filling 500mg tablets as the physician too prescribed 500mg tablets. The patient might also get confused with all the billing information
+        a. Jane took the best course of action by filling 500mg tablets as the physician too prescribed 500mg tablets. The patient might also get confused with all the billing information.
     </string>
-    <string name="q2a1">question 2 answer 1</string>
-    <string name="q3a1">question 3 answer 1</string>
+    <string name="q2a1">a. Scream back at her saying she is wrong and that she is a pain to the staff at the pharmacy always.</string>
+    <string name="q3a1">a. Explain to Kathy that she cannot use her father\'s insurance plan for this prescription if she does not want him knowing about it and would have to pay the remainder in cash after government coverage.</string>
     <string name="q4a1">question 4 answer 1</string>
     <string name="q5a1">question 5 answer 1</string>
 
     <string name="q1a2">
-        Jane violated the ethical principle of respect for persons/justice as she didnot present Boboptions and allow him to choose between paying for the higher priced 500 mg tablets, wait for the pharmacy to receive 250mg tablets stock the next dayor having his prescription filled at a pharmacy with enough 250 mg tablets in stock
+        b. Jane violated the ethical principle of respect for persons/justice as she did not present Bob options and allow him to choose between paying for the higher priced 500mg tablets, wait for the
+        pharmacy to receive 250mg tablets stock the next day or having his prescription filled at a pharmacy with enough 250mg tablets in stock.
     </string>
-    <string name="q2a2">question 2 answer 2</string>
-    <string name="q3a2">question 3 answer 2</string>
+    <string name="q2a2">b. Ask her to get private third-party insurance coverage as the government will not cover for prescriptions once a person gets discharged from a nursing home.</string>
+    <string name="q3a2">b. Assure Kathy that her father will not see what medication she had filled as it considered personal health information and is protected under PHIPA.</string>
     <string name="q4a2">question 4 answer 2</string>
     <string name="q5a2">question 5 answer 2</string>
 
     <string name="q1a3">
-        Jane violatedthe ethical principle ofbeneficence as she worked for the best interests of the pharmacy’s business and not the patient
+        c. Jane violated the ethical principle of beneficence as she worked for the best interests of the pharmacy\’s business and not the patient\'s.
     </string>
-    <string name="q2a3">question 2 answer 3</string>
-    <string name="q3a3">question 3 answer 3</string>
+    <string name="q2a3">c. Explain to her that her health card version changes after discharge from a nursing home and confirm with the nursing home that they have updated ODB on her discharge.</string>
+    <string name="q3a3">c. As Kathy is only 15 and is covered as a child underage, her parents have the right to know about the medications as she is covered under her father’s insurance. To ensure Kathy’s well-being, inform her parents about her illness.</string>
     <string name="q4a3">question 4 answer 3</string>
     <string name="q5a3">question 5 answer 3</string>
 
-    <string name="q1a4">
-       Both b and c.
-    </string>
-    <string name="q2a4">question 2 answer 4</string>
-    <string name="q3a4">question 3 answer 4</string>
+    <string name="q1a4">d. Both b and c.</string>
+    <string name="q2a4">d. Alert the pharmacist about the situation and ask if they would like to supply the patient with enough medications to last till Monday at no cost, in case if they are on the medications
+        that cannot be missed until we can get in contact with ODB. </string>
+    <string name="q3a4">d. Both a and b.</string>
     <string name="q4a4">question 4 answer 4</string>
     <string name="q5a4">question 5 answer 4</string>
 
     <string name="q1a5">
-       All of the above
+       e. All of the above.
     </string>
-    <string name="q2a5">question 2 answer 5</string>
-    <string name="q3a5">question 3 answer 5</string>
+    <string name="q2a5">e. Both b and c.</string>
+    <string name="q3a5">d. Both b and c.</string>
     <string name="q4a5">question 4 answer 5</string>
     <string name="q5a5">question 5 answer 5</string>
 
     <string name="q1a6">x</string>
-    <string name="q2a6">question 2 answer 6</string>
-    <string name="q3a6">question 3 answer 6</string>
+    <string name="q2a6">f. Both c and d.</string>
+    <string name="q3a6">x</string>
     <string name="q4a6">question 4 answer 6</string>
     <string name="q5a6">question 5 answer 6</string>
 
+    <!--Correct answers go  in alphabetical/numerical order: a=1, b=2, c=3, etc. -->
     <string name="corr_answer1">4</string>
     <string name="corr_answer2">5</string>
     <string name="corr_answer3">2</string>
     <string name="corr_answer4">1</string>
     <string name="corr_answer5">3</string>
 
-    <string name="expla1">expla1</string>
-    <string name="expla2">expla2</string>
-    <string name="expla3">expla3</string>
+    <string name="expla1">
+        In this scenario, the technician violated the patient\’s autonomy as he was not given any choice and dispensed medication without informing the patient. By not consulting the patient about his opinion, Jane violated
+        the ethical principle of respect for the person. We should let the patient know that we are currently out of stock of the 250 mg tablets and should give him the opportunity to decide whether he wants to take the
+        alternative that costs more or if he would wait till tomorrow as we can order for him. The technician can also let the patient know that he can call other pharmacies to check if the medication was in stock so that
+        the patient can fill in other pharmacies.\n\n
+
+        As a pharmacy technician, we have to think which option would benefit the patient. In this case, Jane did not consider Bob’s financial status and charged him more thus violating an ethical principle of beneficence.
+    </string>
+    <string name="expla2">
+        When a patient is admitted to a nursing home ODB covers all of their medications irrespective of their age with a change in the carrier code of the health card. Upon discharge from a nursing home, the nursing home
+        should inform ODB of the discharge so the carrier code can be changed again; enabling coverage in a regular community pharmacy, provided they are eligible under the ODB program.\n\n
+
+        As a pharmacy technician, it is our responsibility to be able to resolve issues with adjudication. We have to call the nursing home to make sure that they informed the insurance company about the patient getting
+        out of nursing home or we can call the ODB from Monday to Friday in their working hours to know about the issue.
+    </string>
+    <string name="expla3">
+        According to PHIPA, as long as she is in the right state of mind and knows what she is doing, her consent is valid and we have to respect her autonomy and not inform her parents.
+    </string>
     <string name="expla4">expla4</string>
     <string name="expla5">expla5</string>
 

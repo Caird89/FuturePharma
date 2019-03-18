@@ -5,27 +5,26 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.0"
-    timestamp="1552876056364"
+    timestamp="1552881152048"
     token="7267047806013660486"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="66" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="8" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
 
     <build
@@ -114,14 +113,6 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1552874405598"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
         ir-eligibility="CLASS_ADDED"
         timestamp="1552875606224"
         verifier="COLD_SWAP_REQUESTED" >
@@ -131,11 +122,19 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1552876056364"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1552879724028"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1552881152048"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Otto\AndroidStudioProjects\FuturePharma\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 
