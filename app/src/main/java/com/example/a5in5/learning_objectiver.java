@@ -8,9 +8,8 @@ import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
-public class topic_selection extends AppCompatActivity {
+public class learning_objectiver extends AppCompatActivity {
 
     FirebaseAuth authDb;
     DatabaseReference db;
@@ -31,10 +30,28 @@ public class topic_selection extends AppCompatActivity {
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topic_selection);
+        setContentView(R.layout.activity_learning_objectiver);
 
     }
 
+    public void take_me_quiz1(View view)
+    {
+        //todo instead send to Steven's learning objectives page.
+        Intent intent = new Intent(getApplicationContext(), learning_objectiver.class);
+        startActivity(intent);
+    }
+    public void take_me_quiz2(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
+    public void take_me_quiz3(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
+    public void take_me_quiz4(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
 
 
 
@@ -47,11 +64,8 @@ public class topic_selection extends AppCompatActivity {
 
     public void take_me_to_history(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
         startActivity(intent);
     }
 
-
 }
-
-
