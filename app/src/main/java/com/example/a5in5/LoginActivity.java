@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
                         progressDialog.dismiss();
                         if (task.isSuccessful()) {
                             finish();
-                            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                            Intent intent = new Intent(getApplicationContext(),topic_selection.class);
                             startActivity(intent);
                         }
                         else {
