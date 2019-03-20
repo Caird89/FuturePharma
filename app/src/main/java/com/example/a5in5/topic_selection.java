@@ -35,6 +35,25 @@ public class topic_selection extends AppCompatActivity {
 
     }
 
+    public void take_me_quiz1(View view)
+    {
+        //todo instead send to Steven's learning objectives page.
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
+    public void take_me_quiz2(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
+    public void take_me_quiz3(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
+    public void take_me_quiz4(View view)
+    {
+        //insert link to learning objectives / other set of questions here.
+    }
+
 
 
 

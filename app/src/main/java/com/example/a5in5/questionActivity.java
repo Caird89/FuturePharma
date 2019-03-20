@@ -29,7 +29,7 @@ public class questionActivity extends AppCompatActivity {
         C=findViewById(R.id.editTextC);
         D=findViewById(R.id.editTextD);
         Currect=findViewById(R.id.editTextCurrect);
-        //db connection & and reference to artists collection
+        //connects to the db and grabs question texts
         db= FirebaseDatabase.getInstance().getReference("questions");
 
     }

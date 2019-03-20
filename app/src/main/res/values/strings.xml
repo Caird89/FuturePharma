@@ -114,4 +114,5 @@
     <string name="Score_label">Grade</string>
     <string name="TextViewGradeLabel">Grade</string>
     <string name="or_label">Or</string>
+    <string name="topic_selection">Topic Selection</string>
 </resources>
