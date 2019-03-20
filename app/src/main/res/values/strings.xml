@@ -114,4 +114,12 @@
     <string name="Score_label">Grade</string>
     <string name="TextViewGradeLabel">Grade</string>
     <string name="or_label">Or</string>
+    <string name="Further_study_case1">Further Study Case 1</string>
+    <string name="Further_study_case2">Further Study Case 2</string>
+    <string name="Further_study_case3">Further Study Case 3</string>
+    <string name="Further_study_case4">Further Study Case 4</string>
+    <string name="Further_study_case5">Further Study Case 5</string>
+    <string name="Further_study_case6">Further Study Case 6</string>
+    <string name="Further_study_case7">Further Study Case 7</string>
+    <string name="Further_study_case8">Further Study Case 8</string>
 </resources>

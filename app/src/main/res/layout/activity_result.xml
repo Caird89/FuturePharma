@@ -16,7 +16,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginStart="99dp"
         android:layout_marginLeft="99dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="26dp"
         android:src="@drawable/ic_account_circle_black_24dp" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
         android:layout_marginLeft="19dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:layout_toEndOf="@+id/ImageViewUserNameIcon"
         android:layout_toRightOf="@+id/ImageViewUserNameIcon"
         android:textAlignment="center"
@@ -34,22 +34,12 @@
         app:layout_constraintHorizontal_bias="0.0" />
 
 
-    <Button
-        android:layout_width="46dp"
-        android:layout_height="46dp"
 
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="81dp"
-        android:layout_marginLeft="81dp"
-        android:layout_marginTop="86dp"
-        android:background="@drawable/ic_home_black_24dp" />
     <ScrollView
         android:id="@+id/ScrollViewResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="100dp">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -69,4 +59,18 @@
                 app:layout_constraintTop_toBottomOf="@+id/textViewUserName" />
         </LinearLayout>
     </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="27dp"
+        android:clickable="true"
+        android:onClick="GoHome"
+        android:src="@drawable/ic_home_black_24dp" />
+
 </RelativeLayout>
