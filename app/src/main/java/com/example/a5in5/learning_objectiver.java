@@ -23,7 +23,7 @@ public class learning_objectiver extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), LoginActivity.class));
         }
 
-        Button quiz1 = (Button)findViewById(R.id.topic_1);
+        Button gogogo = (Button)findViewById(R.id.gogogo);
         Button quiz2 = (Button)findViewById(R.id.topic_2);
         Button quiz3 = (Button)findViewById(R.id.topic_3);
         Button quiz4 = (Button)findViewById(R.id.topic_4);
@@ -34,10 +34,10 @@ public class learning_objectiver extends AppCompatActivity {
 
     }
 
-    public void take_me_quiz1(View view)
+    public void start_quiz(View view)
     {
         //todo instead send to Steven's learning objectives page.
-        Intent intent = new Intent(getApplicationContext(), learning_objectiver.class);
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
     }
     public void take_me_quiz2(View view)

@@ -28,60 +28,7 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
         <Button
-            android:id="@+id/topic_1"
-            android:layout_width="169dp"
-            android:layout_height="150dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="96dp"
-            android:background="@drawable/topic_blue_rounded"
-            android:onClick="take_me_quiz1"
-            android:text="@string/topic_1"
-            android:textAllCaps="false"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/topic_2"
-            android:layout_width="169dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="96dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/topic_yellow_rounded"
-            android:onClick="take_me_quiz2"
-            android:text="@string/topic_2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/topic_4"
-            android:layout_width="169dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/topic_red_rounded"
-            android:onClick="take_me_quiz4"
-            android:text="@string/topic_4"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topic_2" />
-
-        <Button
-            android:id="@+id/topic_3"
-            android:layout_width="169dp"
-            android:layout_height="150dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/topic_purple_rounded"
-            android:onClick="take_me_quiz3"
-            android:text="@string/topic_3"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topic_1" />
-
-        <Button
-            android:id="@+id/history_page"
+            android:id="@+id/gogogo"
             android:layout_width="261dp"
             android:layout_height="74dp"
             android:layout_marginStart="8dp"
@@ -90,22 +37,22 @@
             android:layout_marginRight="8dp"
             android:layout_marginBottom="96dp"
             android:background="@drawable/topic_green_rounded"
-            android:onClick="take_me_to_history"
-            android:text="@string/view_quiz_history"
+            android:onClick="start_quiz"
+            android:text="Start Quiz"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="256dp"
+            android:layout_width="305dp"
             android:layout_height="46dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/topic_selection"
+            android:text="Learning Objective"
             android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
