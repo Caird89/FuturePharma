@@ -115,4 +115,9 @@
     <string name="TextViewGradeLabel">Grade</string>
     <string name="or_label">Or</string>
     <string name="topic_selection">Topic Selection</string>
+    <string name="topic_1">Pharmacy Technician Practical Quiz</string>
+    <string name="topic_2">Placeholder 2</string>
+    <string name="topic_4">Placeholder 4</string>
+    <string name="topic_3">Placeholder 3</string>
+    <string name="view_quiz_history">View Quiz History</string>
 </resources>

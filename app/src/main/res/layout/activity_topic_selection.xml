@@ -19,7 +19,8 @@
         android:src="@mipmap/ic_logout_foreground"
         app:backgroundTint="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:focusable="true" />
 
     <Button
         android:id="@+id/topic_1"
@@ -30,7 +31,7 @@
         android:layout_marginTop="96dp"
         android:background="@drawable/topic_blue_rounded"
         android:onClick="take_me_quiz1"
-        android:text="Pharmacy Technician Practical Quiz"
+        android:text="@string/topic_1"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +45,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/topic_yellow_rounded"
         android:onClick="take_me_quiz2"
-        android:text="Placeholder 2"
+        android:text="@string/topic_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -57,7 +58,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/topic_red_rounded"
         android:onClick="take_me_quiz4"
-        android:text="Placeholder 4"
+        android:text="@string/topic_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topic_2" />
 
@@ -70,7 +71,7 @@
         android:layout_marginTop="8dp"
         android:onClick="take_me_quiz3"
         android:background="@drawable/topic_purple_rounded"
-        android:text="Placeholder 3"
+        android:text="@string/topic_3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topic_1" />
 
@@ -85,21 +86,21 @@
         android:layout_marginBottom="96dp"
         android:background="@drawable/topic_green_rounded"
         android:onClick="take_me_to_history"
-        android:text="View Quiz History"
+        android:text="@string/view_quiz_history"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="256dp"
+        android:layout_width="319dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/topic_selection"
+        android:text="Learning Objective"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
