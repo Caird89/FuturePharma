@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ImageViewResultDetailsIcon"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                android:id="@+id/textViewUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffffff"
+                app:layout_constraintLeft_toRightOf="@+id/ImageViewResultDetailsIcon"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="130dp"
+            android:layout_centerHorizontal="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/TextViewTopicLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/topic_label" />
+
+        <TextView
+            android:id="@+id/textViewDetailsTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TextViewGradeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TextViewGradeLabel"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewMyGrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewQ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ImageViewQuestion1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/ic_error_black_24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewQ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ImageViewQuestion2"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/ic_error_black_24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewQ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ImageViewQuestion3"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/ic_error_black_24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewQ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ImageViewQuestion4"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/ic_error_black_24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewQ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/ImageViewQuestion5"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/ic_done_black_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
