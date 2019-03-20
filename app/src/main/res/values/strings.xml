@@ -114,6 +114,8 @@
     <string name="Score_label">Grade</string>
     <string name="TextViewGradeLabel">Grade</string>
     <string name="or_label">Or</string>
+
+
     <string name="topic_selection">Topic Selection</string>
     <string name="topic_1">Pharmacy Technician Practical Quiz</string>
     <string name="topic_2">Placeholder 2</string>
@@ -124,4 +126,14 @@
     <string name="start_quiz_text">Start Quiz</string>
     <string name="learning_objective_detailed">In this quiz you will be presented with practical questiosn regarding workign as a pharmacutical technician.
     /n/nThere is no time limit and your results will</string>
+
+		<string name="Further_study_case1">Further Study Case 1</string>
+		<string name="Further_study_case2">Further Study Case 2</string>
+		<string name="Further_study_case3">Further Study Case 3</string>
+		<string name="Further_study_case4">Further Study Case 4</string>
+		<string name="Further_study_case5">Further Study Case 5</string>
+		<string name="Further_study_case6">Further Study Case 6</string>
+		<string name="Further_study_case7">Further Study Case 7</string>
+		<string name="Further_study_case8">Further Study Case 8</string>
+
 </resources>

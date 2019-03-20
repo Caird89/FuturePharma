@@ -1,8 +1,10 @@
 package com.example.a5in5;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -89,5 +91,39 @@ public class ResultDetails extends AppCompatActivity {
 
 
 
+    }
+
+    public void GoHome(View view) {
+        Intent intent = new Intent (this, MainActivity.class);
+        startActivity(intent);
+    }
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+    public void GoFurtherCase1(View view) {
+        goToUrl ( "https://www.ontario.ca/laws/statute/90p23?fbclid=IwAR1GoGcOzLZXpOwBzPYshBRw5sP6Jl4jpOJN5nGl8RtWdXuulmaRoahz69k");
+    }
+    public void GoFurtherCase2(View view) {
+        goToUrl ( "https://www.ontario.ca/page/get-coverage-prescription-drugs?fbclid=IwAR0KmX9EGrf1piKGL0c-8O1QtOlg84mkpLcKcqEfR0VjQtBBiPS0LypJPrc#section-0");
+    }
+    public void GoFurtherCase3(View view) {
+        goToUrl ( "https://www.ontario.ca/page/learn-about-ohip-plus?fbclid=IwAR07ikrJRL2QNnm2WarOQ92z_VmXzIYx7v5IlL8Xhans-nA28yLzHVEl42Y#section-2");
+    }
+    public void GoFurtherCase4(View view) {
+        goToUrl ( "https://www.ontario.ca/laws/statute/04p03?fbclid=IwAR1HOD48YbA5XxIsxPqgXChZlS1SeCghPQKwrg37MiI4ANXW6EtmW1UVne8");
+    }
+    public void GoFurtherCase5(View view) {
+        goToUrl ( "http://www.ocpinfo.com/extra/Code-of-Ethics/?fbclid=IwAR26IqH56hoeJYyDyAywuUDsKo_5OwuLYw3AJpHsGlh7qlrtVkGezDzcDVQ#?page=6");
+    }
+    public void GoFurtherCase6(View view) {
+        goToUrl ( "http://www.ocpinfo.com/registration/training-exams/jp-exam/jp-resources/e-learning-modules/didfa-module/");
+    }
+    public void GoFurtherCase7(View view) {
+        goToUrl ( "http://www.ocpinfo.com/registration/training-exams/jp-exam/jp-resources/e-learning-modules/odb-module/");
+    }
+    public void GoFurtherCase8(View view) {
+        goToUrl ( "https://www.thestar.com/news/canada/2018/06/30/ohip-to-no-longer-give-kids-young-adults-with-private-insurance-free-medication.html?fbclid=IwAR3enUV4I0YmaC9pE_Bp9pTfMwZM1prNR6HQbqy-V_1jDlENanwm4Qtlmio");
     }
 }
