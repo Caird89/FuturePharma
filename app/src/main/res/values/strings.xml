@@ -124,8 +124,8 @@
     <string name="view_quiz_history">View Quiz History</string>
     <string name="learning_objective">Learning Objective</string>
     <string name="start_quiz_text">Start Quiz</string>
-    <string name="learning_objective_detailed">In this quiz you will be presented with practical questiosn regarding workign as a pharmacutical technician.
-    /n/nThere is no time limit and your results will</string>
+    <string name="learning_objective_detailed">In this quiz you will be presented with practical questions regarding working as a pharmaceutical technician.
+    \n\nThere is no time limit! Press the button below to start when you\'re ready.</string>
 
 		<string name="Further_study_case1">Further Study Case 1</string>
 		<string name="Further_study_case2">Further Study Case 2</string>
