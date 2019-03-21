@@ -107,7 +107,7 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void GoHome(View view) {
-        Intent intent = new Intent (this, MainActivity.class);
+        Intent intent = new Intent (this, topic_selection.class);
         startActivity(intent);
 
     }

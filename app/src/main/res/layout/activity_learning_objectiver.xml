@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".learning_objectiver">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@mipmap/ic_bg_pagefinal2_foreground"
         tools:context=".topic_selection">
 
         <android.support.design.widget.FloatingActionButton
@@ -17,13 +19,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-
             android:layout_marginBottom="8dp"
             android:clickable="true"
             android:focusable="true"
-            android:onClick="logout"
-            android:src="@mipmap/ic_logout_foreground"
-            app:backgroundTint="@color/colorPrimaryDark"
+            android:onClick="GoHome"
+            android:src="@drawable/ic_home_black_24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
@@ -33,18 +33,22 @@
             android:layout_height="74dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginBottom="96dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/topic_green_rounded"
             android:onClick="start_quiz"
             android:text="@string/start_quiz_text"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
         <TextView
             android:id="@+id/textViewzzzz"
+            android:textColor="#ffffff"
             android:layout_width="305dp"
             android:layout_height="46dp"
             android:layout_marginStart="8dp"
@@ -62,19 +66,93 @@
         <TextView
             android:id="@+id/learning_objective_para"
             android:layout_width="370dp"
-            android:layout_height="378dp"
+            android:textColor="#ffffff"
+            android:layout_height="275dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginBottom="8dp"
             android:text="@string/learning_objective_detailed"
             android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/gogogo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewzzzz" />
 
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/learning_objective_para">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="top"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/bg_case_study4"
+                    android:padding="26dp"
+                    android:textColor="@color/white"
+                    android:onClick="GoStudyCase1"
+                    android:text="@string/study_case1" />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/bg_case_study2"
+                    android:padding="26dp"
+                    android:textColor="@color/white"
+                    android:onClick="GoStudyCase2"
+                    android:text="@string/study_case2" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:background="@drawable/bg_case_study"
+                    android:padding="26dp"
+                    android:textColor="@color/white"
+                    android:onClick="GoStudyCase3"
+                    android:text="@string/study_case3" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginRight="9dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_case_study"
+                    android:padding="26dp"
+                    android:onClick="GoStudyCase4"
+                    android:text="@string/study_case4" />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_case_study2"
+                    android:layout_marginRight="9dp"
+                    android:onClick="GoStudyCase5"
+
+                    android:padding="26dp"
+                    android:text="@string/study_case5" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
     </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>

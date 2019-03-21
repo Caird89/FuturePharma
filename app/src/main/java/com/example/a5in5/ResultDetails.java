@@ -42,7 +42,7 @@ public class ResultDetails extends AppCompatActivity {
 
         //
         Intent intent = getIntent();
-        username.setText("UserName: "+intent.getStringExtra("username"));
+        username.setText(intent.getStringExtra("username"));
         topic.setText(intent.getStringExtra("topic"));
         score.setText(intent.getStringExtra("score"));
 
@@ -94,7 +94,7 @@ public class ResultDetails extends AppCompatActivity {
     }
 
     public void GoHome(View view) {
-        Intent intent = new Intent (this, MainActivity.class);
+        Intent intent = new Intent (this, topic_selection.class);
         startActivity(intent);
     }
     private void goToUrl (String url) {

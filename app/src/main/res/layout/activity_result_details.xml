@@ -9,11 +9,11 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:layout_height="280dp">
         <LinearLayout
             android:background="@color/colorPrimary"
             android:layout_width="match_parent"
-            android:layout_height="190dp"
+            android:layout_height="180dp"
             android:orientation="vertical">
 
             <ImageView
@@ -99,22 +99,12 @@
         </android.support.v7.widget.CardView>
     </RelativeLayout>
 
-    <ScrollView
-        android:id="@+id/ScrollViewResult"
-        android:layout_width="match_parent"
-        android:layout_height="295dp">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center"
-            android:layout_marginTop="59dp"
-            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="500dp">
+                android:layout_marginTop="5dp">
 
                 <TextView
                     android:id="@+id/textViewQ1"
@@ -222,107 +212,128 @@
 
             </LinearLayout>
 
+    <HorizontalScrollView
+        android:id="@+id/ScrollViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
             <Button
                 android:id="@+id/buttonFurtherCase1"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study4"
                 android:onClick="GoFurtherCase1"
-                android:padding="36dp"
                 android:text="@string/Further_study_case1" />
+
 
             <Button
                 android:id="@+id/buttonFurtherCase2"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study2"
                 android:onClick="GoFurtherCase2"
-                android:padding="36dp"
+
                 android:text="@string/Further_study_case2" />
 
             <Button
                 android:id="@+id/buttonFurtherCase3"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study"
                 android:onClick="GoFurtherCase3"
-                android:padding="36dp"
+
                 android:text="@string/Further_study_case3" />
 
             <Button
                 android:id="@+id/buttonFurtherCase4"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study4"
                 android:onClick="GoFurtherCase4"
-                android:padding="36dp"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:text="@string/Further_study_case4" />
 
             <Button
                 android:id="@+id/buttonFurtherCase5"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study2"
                 android:onClick="GoFurtherCase5"
-                android:padding="36dp"
                 android:text="@string/Further_study_case5" />
 
             <Button
                 android:id="@+id/buttonFurtherCase6"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study3"
                 android:onClick="GoFurtherCase6"
-                android:padding="36dp"
                 android:text="@string/Further_study_case6" />
 
             <Button
                 android:id="@+id/buttonFurtherCase7"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+
+                android:layout_marginRight="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study4"
                 android:onClick="GoFurtherCase7"
-                android:padding="36dp"
+
                 android:text="@string/Further_study_case7" />
 
             <Button
                 android:id="@+id/buttonFurtherCase8"
-                android:layout_width="match_parent"
+                android:layout_width="120dp"
+                android:padding="16dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="90dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="90dp"
-                android:background="@drawable/further_casestudy_button"
+                android:layout_marginLeft="9dp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_case_study"
                 android:onClick="GoFurtherCase8"
-                android:padding="36dp"
+
                 android:text="@string/Further_study_case8" />
 
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:layout_gravity="right"
         android:clickable="true"
         android:onClick="GoHome"

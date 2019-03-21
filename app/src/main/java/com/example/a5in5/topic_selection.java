@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -43,14 +44,17 @@ public class topic_selection extends AppCompatActivity {
     }
     public void take_me_quiz2(View view)
     {
+        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
     public void take_me_quiz3(View view)
     {
+        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
     public void take_me_quiz4(View view)
     {
+        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
 
