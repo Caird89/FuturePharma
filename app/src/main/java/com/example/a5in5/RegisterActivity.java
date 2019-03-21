@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,6 +27,7 @@ public class RegisterActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     TextView termsTextView;
     SubmitButton testsubmit;
+    TextView titleTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +41,7 @@ public class RegisterActivity extends AppCompatActivity {
         confirmEditText = findViewById(R.id.confirmEditText);
         progressDialog = new ProgressDialog(this);
         testsubmit = (SubmitButton) findViewById(R.id.testSubmit);
+        titleAnimation();
     }
 
     public void registerUser(View view) {
@@ -80,5 +84,10 @@ public class RegisterActivity extends AppCompatActivity {
 
                     }
                 });
+    }
+    public void titleAnimation(){
+        titleTextView = findViewById(R.id.titleTextView);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim);
+        titleTextView.startAnimation(animation);
     }
 }
