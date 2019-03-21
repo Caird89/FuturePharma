@@ -87,7 +87,6 @@ public class LoginActivity extends AppCompatActivity {
 
     public void titleAnimation(){
         titleTextView = findViewById(R.id.titleTextView);
-
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.anim);
         titleTextView.startAnimation(animation);
     }
