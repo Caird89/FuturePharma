@@ -1,6 +1,7 @@
 package com.example.a5in5;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,7 +67,8 @@ public class RegisterActivity extends AppCompatActivity {
             return;
         }
 
-        // if valid, attempt to create user
+        // if valid, attempt to create user, and if succesfuly created it will take the user straight
+        //to the main topic selection page.
         progressDialog.setMessage("Registering...");
         progressDialog.show();
 
@@ -76,7 +78,10 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         progressDialog.dismiss();
                         if (task.isSuccessful()) {
-                            Toast.makeText(RegisterActivity.this, "Successfully Registered", Toast.LENGTH_LONG).show();
+                            Toast.makeText(RegisterActivity.this, "Successfully Registered & Logged In", Toast.LENGTH_LONG).show();
+
+                            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                            startActivity(intent);
                         }
                         else {
                             Toast.makeText(RegisterActivity.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
