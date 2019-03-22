@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">5 in 5</string>
+    <string name="app_name">Trivia for Technicians</string>
     <string name="Submit_button">Submit</string>
     <string name="login">Login</string>
     <string name="click_to_register">Register</string>
     <string name="enter_email">Enter Email</string>
     <string name="enter_password">Enter Password</string>
-    <string name="confirm_password">Comfire Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="register">Register</string>
     <string name="Attempt_time">Attempt</string>
     <string name="Enter_a_topic">Enter a Topic</string>

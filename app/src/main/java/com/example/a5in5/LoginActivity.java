@@ -36,9 +36,11 @@ public class LoginActivity extends AppCompatActivity {
         passwordEditText = findViewById(R.id.passwordEditText);
         progressDialog = new ProgressDialog(this);
         LoginButton = findViewById(R.id.loginButton);
-        // redirect to main activity if user is already logged in
+
+
+        // Redirects user to topic selection if succesfully logged in already.
         if (authDb.getCurrentUser() != null) {
-            startActivity(new Intent(getApplicationContext(), ResultActivity.class));
+            startActivity(new Intent(getApplicationContext(), topic_selection.class));
         }
         titleAnimation();
     }

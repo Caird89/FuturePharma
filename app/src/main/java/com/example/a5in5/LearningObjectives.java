@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 
-public class learning_objectiver extends AppCompatActivity {
+public class LearningObjectives extends AppCompatActivity {
 
     FirebaseAuth authDb;
     DatabaseReference db;

@@ -4,12 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class topic_selection extends AppCompatActivity {
 
@@ -39,7 +37,7 @@ public class topic_selection extends AppCompatActivity {
     public void take_me_quiz1(View view)
     {
         //todo instead send to Steven's learning objectives page.
-        Intent intent = new Intent(getApplicationContext(), learning_objectiver.class);
+        Intent intent = new Intent(getApplicationContext(), LearningObjectives.class);
         startActivity(intent);
     }
     public void take_me_quiz2(View view)
