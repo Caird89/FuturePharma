@@ -1,12 +1,20 @@
-# FuturePharma
-PharmaTech Android Application
+Bit of Pie proudly present to you...
+# Trivia for Technicians
+The study app you didn't realize you needed!
 
-The purpose of our FuturePharma app will be to help Pharmtech students study. The focus will be on a set of multiple 
-choice questions and answers that will all be a part of the same broader topic.
+Using this app pharmacy technician students will be able to register an account, login, and be able to 
+view our selection of various quizes (currently one!). Each quiz has  it's own set of case studies that
+the students can read and learn from before and after taking the quiz. All of their quiz attempts are
+saved in their history, and so they can easily view how they've been doing in past attempts, and what
+they should improve on.
 
-Answering correctly may further explain why the answer was correct, this is to be decided. 
-Similarly answering incorrectly will provide an explanation as to why the answer was incorrect. 
+During the quiz itself for each question they answer correctly or incorrectly they will recieve an
+explanation of why their answer was right or wrong, further allowing students to easily use this as
+a method of study without requiring a textbook or a computer present, as everything they needed is present
+right in th app itself. 
 
-We will be using Android Studio and developing for Android 5.1 Lollipop in order to maximize compatibility as 
-the app is fairly simple, and doesn't require advanced features, and we doubt that the vast majority of our target
-demographic (College or University students) would have a device running anything older than that. 
+__________________________________________________________________________________________________________
+
+On the technical side of things we are developing for Android 5.1 Lollipop in order to maximize compatibility 
+as the app is fairly simple, and doesn't require advanced features, and we doubt that the vast majority of our
+target demographic (College or University students) would have a device running anything older than that. 
