@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
 
+        android:contentDescription="@string/bit_of_pie_group_logo_fallback_text"
         android:src="@mipmap/ic_bitofpieicon_foreground"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,7 +34,8 @@
         android:padding="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bitofpieicon" />
+        app:layout_constraintTop_toBottomOf="@+id/bitofpieicon"
+        android:drawableEnd="@drawable/ic_email_black_24dp" />
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -48,7 +50,8 @@
         android:padding="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText"
+        android:drawableEnd="@drawable/ic_remove_red_eye_black_24dp" />
 
     <EditText
         android:id="@+id/confirmEditText"
@@ -63,7 +66,8 @@
         android:padding="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText"
+        android:drawableEnd="@drawable/ic_remove_red_eye_black_24dp" />
 
     <com.spark.submitbutton.SubmitButton
         android:id="@+id/testSubmit"

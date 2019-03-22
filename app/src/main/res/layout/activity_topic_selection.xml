@@ -30,11 +30,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="96dp"
-        android:textColor="@color/white"
         android:background="@drawable/bg_case_study4"
         android:onClick="take_me_quiz1"
         android:text="@string/topic_1"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

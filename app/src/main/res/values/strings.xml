@@ -117,7 +117,7 @@
 
 
     <string name="topic_selection">Topic Selection</string>
-    <string name="topic_1">Pharmacy Technician Practical Quiz</string>
+    <string name="topic_1">Decoding Abjudication</string>  <!--Changed to what the client/pharmtech students requested.-->
     <string name="topic_2">Placeholder 2</string>
     <string name="topic_4">Placeholder 4</string>
     <string name="topic_3">Placeholder 3</string>
@@ -135,7 +135,7 @@
 		<string name="Further_study_case6">Further Study Case 6</string>
 		<string name="Further_study_case7">Further Study Case 7</string>
 		<string name="Further_study_case8">Further Study Case 8</string>
-        <string name="titletextview">5 &amp; 5 </string>
+        <string name="titletextview">Trivia for Technicians</string>
 
 
          //5 studyCase
@@ -151,6 +151,7 @@
     <string name="placeholder_question_text">Placeholder Question Text</string>
     <string name="topic_selection_top_text">Topic Selection</string>
     <string name="red_exclamation_mark_text_fallback">Red exclamation mark.</string>
-    <string name="green_checkmark_fallback_text">Green checkmark.</string>
+    <string name="green_checkmark_fallback_text">Green check mark.</string>
+    <string name="user_icon_picture_fallbacktext">User icon picture.</string>
 
 </resources>
