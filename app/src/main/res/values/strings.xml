@@ -147,5 +147,10 @@
     <string name="study_case6">Study Case 6</string>
     <string name="study_case7">Study Case 7</string>
     <string name="study_case8">Study Case 8</string>
+    <string name="bit_of_pie_group_logo_fallback_text">Bit of Pie Group logo.</string>
+    <string name="placeholder_question_text">Placeholder Question Text</string>
+    <string name="topic_selection_top_text">Topic Selection</string>
+    <string name="red_exclamation_mark_text_fallback">Red exclamation mark.</string>
+    <string name="green_checkmark_fallback_text">Green checkmark.</string>
 
 </resources>

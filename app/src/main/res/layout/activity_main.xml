@@ -24,7 +24,7 @@
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
 
@@ -36,13 +36,13 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
 
-                android:text="TextView"
+                android:text="@string/placeholder_question_text"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/answersRadioGroup"
-                android:layout_width="wrap_content"
+                android:layout_width="360dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
                 android:layout_marginLeft="10dp"
@@ -55,32 +55,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="RadioButton"
-                />
+                    android:text="RadioButton" />
 
                 <RadioButton
                     android:id="@+id/AradioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="RadioButton"
-                    />
+                    android:text="RadioButton" />
 
                 <RadioButton
                     android:id="@+id/BradioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="RadioButton"
-                    />
+                    android:text="RadioButton" />
 
                 <RadioButton
                     android:id="@+id/DradioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="RadioButton"
-                    />
+                    android:text="RadioButton" />
             </RadioGroup>
 
             <Button
@@ -93,7 +89,8 @@
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/btn_green_main_animation"
                 android:text="@string/Submit_button"
-                android:textColor="#fff" />
+                android:textColor="#fff"
+                android:layout_marginStart="110dp" />
         </LinearLayout>
     </ScrollView>
 
@@ -105,10 +102,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
-        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:clickable="true"
+        android:focusable="true"
         android:onClick="logout"
         android:src="@mipmap/ic_logout_foreground" />
 

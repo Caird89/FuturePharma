@@ -23,13 +23,15 @@
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:contentDescription="@string/bit_of_pie_group_logo_fallback_text"
         android:src="@mipmap/ic_bitofpieicon_foreground"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -53,7 +55,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailEditText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <Button
         android:id="@+id/loginButton"
