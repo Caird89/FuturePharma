@@ -72,29 +72,28 @@
     <com.spark.submitbutton.SubmitButton
 
 
-
         android:id="@+id/testSubmit"
-        android:layout_width="213dp"
-        android:layout_height="81dp"
+        android:layout_width="220dp"
+        android:layout_height="119dp"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
         android:onClick="registerUser"
         android:orientation="horizontal"
-        android:text="@string/register"
-        android:textColor="@color/colorPrimary"
+        android:text="@string/click_to_register"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmEditText"
         app:layout_constraintVertical_bias="0.19"
-        app:sub_btn_background="@color/white"
-        app:sub_btn_duration="1500"
-        app:sub_btn_line_color="#ffffff"
-        app:sub_btn_ripple_color="@color/white"
-        app:sub_btn_tick_color="@color/white"
+        app:sub_btn_background="@color/colorPrimary"
 
-        />
+        app:sub_btn_duration="1500"
+        app:sub_btn_line_color="@color/colorWhite"
+        app:sub_btn_ripple_color="@color/colorAccent"
+        app:sub_btn_tick_color="@color/colorAccent" />
 
 
 

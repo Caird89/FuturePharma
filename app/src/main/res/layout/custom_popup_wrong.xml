@@ -62,7 +62,7 @@ android:gravity="center">
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:background="@drawable/button_green_round"
+            android:background="@drawable/topic_red_rounded"
             android:text="@string/Right_next"
             android:textColor="#fff" />
 
