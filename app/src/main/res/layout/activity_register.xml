@@ -72,25 +72,33 @@
     <com.spark.submitbutton.SubmitButton
 
 
+
         android:id="@+id/testSubmit"
-        android:layout_width="205dp"
-        android:layout_height="96dp"
+        android:layout_width="213dp"
+        android:layout_height="81dp"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:onClick="registerUser"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:text="@string/register"
-        android:textColor="@color/gray"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmEditText"
         app:layout_constraintVertical_bias="0.19"
         app:sub_btn_background="@color/white"
         app:sub_btn_duration="1500"
-        app:sub_btn_line_color="#013e1c"
+        app:sub_btn_line_color="#ffffff"
         app:sub_btn_ripple_color="@color/white"
-        app:sub_btn_tick_color="@color/white" />
+        app:sub_btn_tick_color="@color/white"
+
+        />
+
+
+
+        />
 
     <TextView
         android:id="@+id/titleTextView"

@@ -42,17 +42,17 @@ public class topic_selection extends AppCompatActivity {
     }
     public void take_me_quiz2(View view)
     {
-        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "The quiz is coming soon.", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
     public void take_me_quiz3(View view)
     {
-        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "The quiz is coming soon.", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
     public void take_me_quiz4(View view)
     {
-        Toast.makeText(this, "The quiz is coming soon......", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "The quiz is coming soon.", Toast.LENGTH_LONG).show();
         //insert link to learning objectives / other set of questions here.
     }
 

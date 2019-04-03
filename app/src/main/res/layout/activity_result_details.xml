@@ -224,108 +224,110 @@
             android:layout_height="fill_parent"
 
             android:layout_gravity="top"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/buttonFurtherCase1"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study4"
+                android:background="@drawable/topic_blue_rounded"
                 android:onClick="GoFurtherCase1"
-                android:text="@string/Further_study_case1" />
+                android:padding="16dp"
+                android:text="@string/Further_study_case1"
+                android:textColor="@color/white" />
 
 
             <Button
                 android:id="@+id/buttonFurtherCase2"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study2"
+                android:background="@drawable/topic_green_rounded"
                 android:onClick="GoFurtherCase2"
+                android:padding="16dp"
+                android:text="@string/Further_study_case2"
 
-                android:text="@string/Further_study_case2" />
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase3"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study"
+                android:background="@drawable/topic_blue_rounded"
                 android:onClick="GoFurtherCase3"
+                android:padding="16dp"
+                android:text="@string/Further_study_case3"
 
-                android:text="@string/Further_study_case3" />
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase4"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study4"
+                android:background="@drawable/topic_green_rounded"
                 android:onClick="GoFurtherCase4"
-                android:layout_width="120dp"
                 android:padding="16dp"
-                android:text="@string/Further_study_case4" />
+                android:text="@string/Further_study_case4"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase5"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study2"
+                android:background="@drawable/topic_blue_rounded"
                 android:onClick="GoFurtherCase5"
-                android:text="@string/Further_study_case5" />
+                android:padding="16dp"
+                android:text="@string/Further_study_case5"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase6"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study3"
+                android:background="@drawable/topic_green_rounded"
                 android:onClick="GoFurtherCase6"
-                android:text="@string/Further_study_case6" />
+                android:padding="16dp"
+                android:text="@string/Further_study_case6"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase7"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
-
                 android:layout_marginRight="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study4"
-                android:onClick="GoFurtherCase7"
 
-                android:text="@string/Further_study_case7" />
+                android:background="@drawable/topic_blue_rounded"
+                android:onClick="GoFurtherCase7"
+                android:padding="16dp"
+                android:text="@string/Further_study_case7"
+
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/buttonFurtherCase8"
                 android:layout_width="120dp"
-                android:padding="16dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="9dp"
-                android:textColor="@color/white"
-                android:background="@drawable/bg_case_study"
+                android:background="@drawable/topic_green_rounded"
                 android:onClick="GoFurtherCase8"
+                android:padding="16dp"
+                android:text="@string/Further_study_case8"
 
-                android:text="@string/Further_study_case8" />
+                android:textColor="@color/white" />
 
         </LinearLayout>
     </HorizontalScrollView>
