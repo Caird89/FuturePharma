@@ -23,6 +23,7 @@
         android:focusable="true" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/topic_1"
         android:layout_width="169dp"
         android:layout_height="150dp"
@@ -32,54 +33,57 @@
         android:background="@drawable/topic_blue_rounded"
         android:onClick="take_me_quiz1"
         android:text="@string/topic_1"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/topic_2"
         android:layout_width="169dp"
         android:layout_height="150dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:textColor="@color/white"
         android:background="@drawable/topic_green_rounded"
         android:onClick="take_me_quiz2"
         android:text="@string/topic_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/topic_4"
         android:layout_width="169dp"
         android:layout_height="150dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:textColor="@color/white"
         android:background="@drawable/topic_blue_rounded"
         android:onClick="take_me_quiz4"
         android:text="@string/topic_4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topic_2" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/topic_3"
         android:layout_width="169dp"
         android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:onClick="take_me_quiz3"
-        android:textColor="@color/white"
         android:background="@drawable/topic_green_rounded"
+        android:onClick="take_me_quiz3"
         android:text="@string/topic_3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topic_1" />
 
     <Button
+        android:textColor="@color/white"
         android:id="@+id/history_page"
         android:layout_width="261dp"
         android:layout_height="74dp"
