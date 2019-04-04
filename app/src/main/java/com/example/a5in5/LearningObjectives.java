@@ -69,24 +69,35 @@ public class LearningObjectives extends AppCompatActivity {
     }
 
     public void GoStudyCase1(View view) {
-        goToUrl ("http://www.ocpinfo.com/extra/Code-of-Ethics/?fbclid=IwAR26IqH56hoeJYyDyAywuUDsKo_5OwuLYw3AJpHsGlh7qlrtVkGezDzcDVQ#?page=6");
+        Intent intent =new Intent(getApplicationContext(),CaseStudyActivity.class);
+        intent.putExtra("case","https://www.ontario.ca/page/get-coverage-prescription-drugs#_Living_in_a");
+        startActivity(intent);
+
+
     }
     public void GoStudyCase2(View view) {
-        goToUrl ( "https://www.ontario.ca/page/get-coverage-prescription-drugs#_Living_in_a");
+        Intent intent =new Intent(getApplicationContext(),CaseStudyActivity.class);
+        intent.putExtra("case","https://www.ontario.ca/page/get-coverage-prescription-drugs#_Living_in_a");
+        startActivity(intent);
+
     }
     public void GoStudyCase3(View view) {
-        goToUrl ( "https://www.ontario.ca/laws/statute/04p03?fbclid=IwAR1HOD48YbA5XxIsxPqgXChZlS1SeCghPQKwrg37MiI4ANXW6EtmW1UVne8");
+        Intent intent =new Intent(getApplicationContext(),CaseStudyActivity.class);
+        intent.putExtra("case","https://www.ontario.ca/laws/statute/04p03?fbclid=IwAR1HOD48YbA5XxIsxPqgXChZlS1SeCghPQKwrg37MiI4ANXW6EtmW1UVne8");
+        startActivity(intent);
+
     }
     public void GoStudyCase4(View view) {
-        goToUrl ( "https://www.ontario.ca/laws/statute/90p23?fbclid=IwAR1GoGcOzLZXpOwBzPYshBRw5sP6Jl4jpOJN5nGl8RtWdXuulmaRoahz69k");
+        Intent intent =new Intent(getApplicationContext(),CaseStudyActivity.class);
+        intent.putExtra("case","https://www.ontario.ca/laws/statute/90p23?fbclid=IwAR1GoGcOzLZXpOwBzPYshBRw5sP6Jl4jpOJN5nGl8RtWdXuulmaRoahz69k");
+        startActivity(intent);
+
     }
     public void GoStudyCase5(View view) {
-        goToUrl ("https://www.ontario.ca/page/learn-about-ohip-plus?fbclid=IwAR07ikrJRL2QNnm2WarOQ92z_VmXzIYx7v5IlL8Xhans-nA28yLzHVEl42Y#section-2");
+        Intent intent =new Intent(getApplicationContext(),CaseStudyActivity.class);
+        intent.putExtra("case","https://www.ontario.ca/page/learn-about-ohip-plus?fbclid=IwAR07ikrJRL2QNnm2WarOQ92z_VmXzIYx7v5IlL8Xhans-nA28yLzHVEl42Y#section-2");
+        startActivity(intent);
     }
-    private void goToUrl (String url) {
-        Uri uriUrl = Uri.parse(url);
-        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-        startActivity(launchBrowser);
-    }
+
 
 }

@@ -126,18 +126,18 @@
     <string name="learning_objective_detailed">In this quiz you will be presented with practical questions regarding working as a pharmaceutical technician.
     \n\nThere is no time limit! Press the button below to start when you\'re ready.</string>
 
-		<string name="Further_study_case1">Further Study Case 1</string>
-		<string name="Further_study_case2">Further Study Case 2</string>
-		<string name="Further_study_case3">Further Study Case 3</string>
-		<string name="Further_study_case4">Further Study Case 4</string>
-		<string name="Further_study_case5">Further Study Case 5</string>
-		<string name="Further_study_case6">Further Study Case 6</string>
-		<string name="Further_study_case7">Further Study Case 7</string>
-		<string name="Further_study_case8">Further Study Case 8</string>
-        <string name="titletextview">Trivia for Technicians</string>
+    <string name="Further_study_case1">Further Study Case 1</string>
+    <string name="Further_study_case2">Further Study Case 2</string>
+    <string name="Further_study_case3">Further Study Case 3</string>
+    <string name="Further_study_case4">Further Study Case 4</string>
+    <string name="Further_study_case5">Further Study Case 5</string>
+    <string name="Further_study_case6">Further Study Case 6</string>
+    <string name="Further_study_case7">Further Study Case 7</string>
+    <string name="Further_study_case8">Further Study Case 8</string>
+    <string name="titletextview">Trivia for Technicians</string>
 
 
-         //5 studyCase
+    //5 studyCase
     <string name="study_case1">Study Case 1</string>
     <string name="study_case2">Study Case 2</string>
     <string name="study_case3">Study Case 3</string>

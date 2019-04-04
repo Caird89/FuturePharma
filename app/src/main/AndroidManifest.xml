@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a5in5">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_bitofpieicon_round"
@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_bitofpieicon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LearningObjectives"></activity>
+        <activity android:name=".CaseStudyActivity"></activity>
+        <activity android:name=".LearningObjectives" />
         <activity android:name=".topic_selection" />
         <activity android:name=".questionActivity" />
         <activity android:name=".ResultDetails" />
