@@ -1,3 +1,5 @@
+Link to App on PlayStore - https://play.google.com/store/apps/details?id=com.trivia.a5in5
+
 Bit of Pie proudly present to you...
 # Trivia for Technicians
 The study app you didn't realize you needed!
