@@ -1,4 +1,4 @@
-package com.example.a5in5;
+package com.TriviaForTechnicians.a5in5;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
