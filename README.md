@@ -20,3 +20,6 @@ ________________________________________________________________________________
 On the technical side of things we are developing for Android 5.1 Lollipop in order to maximize compatibility 
 as the app is fairly simple, and doesn't require advanced features, and we doubt that the vast majority of our
 target demographic (College or University students) would have a device running anything older than that. 
+
+
+(This App is no longer being updated and as such is no longer available for download within the Google Playstore)
